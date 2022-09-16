@@ -1,0 +1,28 @@
+.footer__text{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+.footer-form{
+    margin-top: 20px;
+}
+.footer-form__input{
+    width: 358px;
+    height: 50px;   
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding: 0px 16px;
+    background: none;
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;  
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 12px;
+}
+
+    

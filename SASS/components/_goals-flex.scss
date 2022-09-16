@@ -1,0 +1,35 @@
+.goals__flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+.goals__lists{
+    max-width: 270px;
+}
+.goals__container-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    
+}
+.goals__icon{
+    width: 70px;
+    height: 70px;
+}
+.goals__description{
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.14;
+    font-size: 14px;
+}
+.goals__text{
+    margin-top: 10px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--grey);
+}

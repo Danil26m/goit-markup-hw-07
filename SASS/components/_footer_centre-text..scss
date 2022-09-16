@@ -1,0 +1,47 @@
+.footer__centre-text{
+    display: flex;
+    gap: 70px;
+    align-items: baseline;
+}
+.footer__webstudio{
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--white);
+    text-decoration: none;
+}
+.footer__address{
+    margin-top: 20px;
+    font-style: normal;
+}
+.footer__address-lists:not(:last-child){
+    margin-bottom: 9px;
+}
+.adress{
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+    color: var(--white);
+    transition: color var(--anim);
+}
+
+.adress:hover,
+.adress:focus
+{
+    color:var(--blue);
+}
+.mailtel-footer{
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--grey);
+    transition: color var(--anim);
+}
+.mailtel-footer:hover,
+.mailtel-footer:focus{
+    color: var(--blue);
+}
