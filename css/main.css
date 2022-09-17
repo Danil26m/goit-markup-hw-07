@@ -165,6 +165,8 @@ img {
 }
 
 .social-network {
+  width: 20px;
+  height: 20px;
   fill: #FFFFFF;
 }
 
@@ -615,10 +617,6 @@ img {
   border-color: #2196F3;
 }
 
-.modal__registration-form--input:focus + .form-icon {
-  fill: #2196F3;
-}
-
 .modal__registration-form--icon {
   position: absolute;
   left: 15px;
@@ -628,6 +626,10 @@ img {
   fill: currentColor;
   -webkit-transition: fill var(--anim);
   transition: fill var(--anim);
+}
+
+.modal__registration-form--input:focus + .modal__registration-form--icon {
+  fill: #2196F3;
 }
 
 .container-form-checkbox {

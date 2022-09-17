@@ -39,10 +39,6 @@
 .modal__registration-form--input:focus{
     border-color: #2196F3;
 }
-.modal__registration-form--input:focus + .form-icon{
-    fill: #2196F3;
-
-}
 .modal__registration-form--icon{
     position: absolute;
     left: 15px;
@@ -50,6 +46,9 @@
     transform: translateY(-50%);
     fill: currentColor;
     transition: fill var(--anim);
+}
+.modal__registration-form--input:focus + .modal__registration-form--icon{
+    fill: #2196F3;
 }
 .container-form-checkbox{
     margin-top: 20px;
